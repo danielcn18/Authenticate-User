@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/loginStyle.css">
+</head>
+<body>
+    <div id="wrapper-main">
+        <form id="wrapper" action="/login" method="post">
+            <h2>Login</h2>
+            <div>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label><br>
+                <input type="text" id="password" name="password" required>
+            </div>
+            <div>
+                <label for="confirm_password">Confirm Password:</label><br>
+                <input type="text" id="confirm_password" name="confirm_password" required>
+            </div>
+            <button id="button" type="submit">Login</button>
+        </form>
+    </div>
+    
+</body>
+</html>
